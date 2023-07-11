@@ -1,0 +1,124 @@
+/* shere style  */
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.Allbutton{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0;
+}
+.cHading{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.cpara{
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto;
+}
+/* hader style  */
+.header{
+    background: rgba(229, 84, 115, 0.10);
+
+}
+.headerAllContent{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.headerTitle{
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #272727;
+    font-size: 72px;
+    font-weight: 800;
+}
+.haderContent{
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;   
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+.haderRight img{
+    width: 635px;
+    height: 715px;
+    flex-shrink: 0;
+
+}
+.haderRight {
+    width: 45%px;
+    margin-top: 50px;
+
+}
+.haderLeft{
+    width: 55%;
+    margin-top:100px ;
+}
+/* start extra sectin style  */
+.extConh{
+}
+.extConM{
+    display: flex;
+}
+.cImgOne{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgb(242,222,232);
+}
+.cImgTwo{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background:rgb(218,240,241);
+}
+.cImgThree{
+    width: 464px;
+    height: 538px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background:rgb(228,236,219);
+}
+.extCon{
+    width: 80%;
+    margin: auto;
+}
+.cImgA{
+    margin-left: 30px;
+}
+.cImgA img{
+    object-position: bottom;
+}
+.one{
+    background: url('');
+}
