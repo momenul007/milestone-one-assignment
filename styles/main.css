@@ -59,13 +59,11 @@ body{
 }
 .haderContent{
     display: flex;
-    width: 634px;
-    flex-direction: column;
-    flex-shrink: 0;   
-    display: flex;
-    width: 634px;
-    flex-direction: column;
+    width: 655px;
+    flex-shrink: 0; 
     flex-shrink: 0;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
 }
 .haderRight img{
     width: 635px;
@@ -87,6 +85,8 @@ body{
 }
 .extConM{
     display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 .cImgOne{
     width: 464px;
@@ -112,9 +112,10 @@ body{
 .extCon{
     width: 80%;
     margin: auto;
+    margin-top: 180px;
 }
 .cImgA{
-    margin-right: 30px;
+    margin-right: 20px;
 }
 .cImgA img{
     object-position: bottom;
@@ -146,6 +147,11 @@ body{
 .cImgC{
     text-align: center;
     text-decoration: underline;
+    color: #272727;
+    font-weight: 700;
+    text-decoration-color:#272727 ;
+    margin-left: 30px;
+    font-size: 23px;
 }
 .extConF{
     display: flex;
@@ -154,6 +160,14 @@ body{
     flex-shrink: 0;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+    margin-left: 30px;
+    margin-top: 130px;
+    padding: 64px 0px 23px 0px;
+}
+.lastry{
+    display: flex;
+    width: 80%;
+    margin: auto;
 }
 .efImg{
     text-align: center;
@@ -163,7 +177,7 @@ body{
 .efC{
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 600;
     line-height: 35px;
 }
@@ -171,10 +185,16 @@ body{
 .saleCont{
     display: flex;
     width: 80%;
+    margin-top: 100px;
+    padding: 70px 0px;
+}
+.forM{
+    margin-top: 20px;
 }
 .saleright{
     width: 80%;
     text-align: center;
+    margin-top: 100px;
 }
 .saleleft{
     width: 20%;
@@ -182,6 +202,9 @@ body{
     height: 420px;
     flex-shrink: 0;
     /* text-align: center; */
+}
+.fullInstagram{
+    margin-top: 100px;
 }
 .diff{
     color:#E55473;
@@ -191,19 +214,23 @@ body{
 }
 .insBottom{
     display:flex;
-    width: 80%;
+    width: 79%;
     margin: auto;
+    margin-top: 50px;
 }
 .insImg{
-    margin-left: 50px;
+    margin-left: 27px;
 }
 .dInput{
-    width: 700px;
-    height: 64px;
+    width: 650px;
+    height: 60px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #FFF;
     border: 0;
+    margin-right: 10px;
+    padding: 0px 18px;
+    padding-top: 2px;
 }
 .fulLatestDeal{
     background: url('../Flower Asset/Rectangle 9.png');
@@ -213,23 +240,36 @@ body{
     width: 1440px;
     height: 449px;
     flex-shrink: 0;
+    margin-top: 100px;
 }
 .dealButoom{
     width: 80%;
     text-align: center;
+    margin-left: 149px;
+    margin-top: 35px;
 }
+.dilmir{
+    padding-top: 125px;
+
+}
+/* ::placeholder{
+    margin-left: 10px;
+} */
 /* dele saction done  */
 /* footer start */
 .footer{
     background: #111010;
-height: 449px;
-flex-shrink: 0;
-text-align: center;
+    height: 449px;
+    flex-shrink: 0;
+    text-align: center;
+    margin-top: 125px;
 }
 .fohad{
     color: #E55473;
     font-size: 48px;
     font-weight: 800;
+    padding-top: 100px;
+
 }
 .fshop{
     color: #FFF;
