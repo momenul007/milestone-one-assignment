@@ -258,17 +258,16 @@ body{
 /* dele saction done  */
 /* footer start */
 .footer{
-    background: #111010;
     height: 449px;
     flex-shrink: 0;
-    text-align: center;
+    /* text-align: center; */
     margin-top: 125px;
+    padding-top: 8px;
 }
 .fohad{
     color: #E55473;
     font-size: 48px;
     font-weight: 800;
-    padding-top: 100px;
 
 }
 .fshop{
@@ -280,15 +279,43 @@ body{
     flex-direction: column;
     flex-shrink: 0;
     color: rgba(255, 255, 255, 0.90);
-    text-align: center;
+    /* text-align: center; */
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin: auto;
 }
 .foclose{
-    color: rgba(255, 255, 255, 0.40);
-    text-align: center;
+    /* background-color: #FFF8F3;
+    text-align: center; */
     font-size: 16px;
     font-weight: 400;
+}
+/* exta code  */
+.extathing{
+    display:flex;
+    background-color: rgba(63, 46, 39, 0.5);
+    margin-top: 100px;
+}
+.allfo{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+/* .footerRight  input[type="text"], input[type="email"], textarea { */
+.input  {
+        display: block;
+        margin-bottom: 25px;
+        width: 461px;
+        height: 64px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        background: #FFF;
+        border: 0;
+    }
+.footerRight{
+    /* margin: auto; */
+    padding: 134px 129px;
+    margin-left: 200px;
+    text-align: right;
 }
