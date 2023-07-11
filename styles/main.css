@@ -168,3 +168,87 @@ body{
     line-height: 35px;
 }
 /* sale saction style  */
+.saleCont{
+    display: flex;
+    width: 80%;
+}
+.saleright{
+    width: 80%;
+    text-align: center;
+}
+.saleleft{
+    width: 20%;
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+    /* text-align: center; */
+}
+.diff{
+    color:#E55473;
+}
+.allsale{
+    background:#fdf6f8;
+}
+.insBottom{
+    display:flex;
+    width: 80%;
+    margin: auto;
+}
+.insImg{
+    margin-left: 50px;
+}
+.dInput{
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+}
+.fulLatestDeal{
+    background: url('../Flower Asset/Rectangle 9.png');
+    width: 80%;
+    margin: auto;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+}
+.dealButoom{
+    width: 80%;
+    text-align: center;
+}
+/* dele saction done  */
+/* footer start */
+.footer{
+    background: #111010;
+height: 449px;
+flex-shrink: 0;
+text-align: center;
+}
+.fohad{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+.fshop{
+    color: #FFF;
+}
+.fop{
+    display: flex;
+    width: 625px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto;
+}
+.foclose{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
